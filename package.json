@@ -4,11 +4,16 @@
   "description": "REST API for next-food-delivery project",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "node ./src/app.js",
+    "tsc": "tsc"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
   }
 }
