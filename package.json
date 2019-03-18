@@ -6,7 +6,7 @@
     "start": "concurrently \"npm:watch-ts\" \"npm:watch-node\"",
     "watch-ts": "tsc --watch",
     "watch-node": "nodemon ./dist/app.js",
-    "build": "tsc"
+    "build": "rm -rf ./dist && tsc"
   },
   "author": "Tjin Au Yeung",
   "license": "ISC",
