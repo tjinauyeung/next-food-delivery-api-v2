@@ -1,0 +1,14 @@
+{
+  "name": "next-food-delivery-api-v2",
+  "version": "1.0.0",
+  "description": "REST API for next-food-delivery project",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
